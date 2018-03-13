@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="209.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="class4dbapp.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtName" layoutX="128.0" layoutY="37.0" />
+      <TextField fx:id="txtPlace" layoutX="128.0" layoutY="80.0" />
+      <Label layoutX="46.0" layoutY="41.0" text="Name" />
+      <Label layoutX="46.0" layoutY="84.0" text="Place" />
+      <Button fx:id="btnView" layoutX="161.0" layoutY="152.0" mnemonicParsing="false" onAction="#viewAllRecords" text="View all" visible="false" />
+      <Button fx:id="btnSave" layoutX="51.0" layoutY="140.0" mnemonicParsing="false" onAction="#saveData" text="Save Department" />
+      <Button fx:id="btnQuit" layoutX="244.0" layoutY="140.0" mnemonicParsing="false" onAction="#viewAllRecords" text="Back" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="241.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="class4dbapp.ShowAllSceneController">
+   <children>
+      <Button fx:id="btnAddNew" layoutX="82.0" layoutY="200.0" mnemonicParsing="false" onAction="#changeToAddNew" text="Add new" />
+      <Button fx:id="btnBack" layoutX="230.0" layoutY="200.0" mnemonicParsing="false" onAction="#closeWindow" text="Close" />
+      <TableView fx:id="depTable" layoutX="7.0" layoutY="14.0" prefHeight="173.0" prefWidth="344.0">
+        <columns>
+          <TableColumn fx:id="numCol" prefWidth="59.0" text="Numero" />
+          <TableColumn fx:id="nomeCol" prefWidth="145.0" text="Nome" />
+            <TableColumn fx:id="localCol" prefWidth="139.0" text="Local" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
